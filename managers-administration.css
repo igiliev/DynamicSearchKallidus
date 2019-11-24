@@ -1,0 +1,154 @@
+.managers-administration {
+    display: flex;
+    flex-flow: column nowrap;
+    color: #434143;
+    font-family: Lato;
+    margin: 0 3.5% 0 0;
+}
+
+.managers-administration__managers {
+    color: #bd1b31;
+    margin: 0;
+}
+
+.managers-administration__beta {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.managers-administration__beta-msg a {
+    color: #434143;
+}
+.clear {
+    position: absolute;
+    right: 12px;
+}
+
+.managers-administration__beta-label {
+    background: #239c8b;
+    color: #fff;
+    height: 20px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    height: 100%;
+}
+
+.managers-administration__description {
+    margin: 0 0 35px 0;
+}
+
+.managers-administration__description-heading {
+    font-size: 20px;
+}
+
+.managers-administration__form-added-manager {
+    background: #606060;
+    color: #fff;
+    padding: 5px 30px 5px 10px;
+    border-radius: 16px;
+    margin: 10px;
+    text-align: center;
+    /* width: 110px; */
+    position: relative;
+}
+
+.managers-administration__description-more-info {
+    font-weight: bold;
+    padding: 0 0 0 25px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.managers-administration__description-more-info a {
+    color: #434143;
+    margin: 0 0 0 5px;
+}
+
+.managers-administration__description-more-info:before {
+    background: url('../assets/svgs/icon-info.svg');
+    content: '';
+    display: block;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.managers-administration__form {
+    border: 2px dashed #d8d8d8;
+    padding: 20px 9% 50px 9%;
+    width: auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.managers-administration__description-link {
+    margin: 0 0 0 5px;
+    color: #434143;
+    font-weight: bold;
+}
+
+.managers-administration__form-submit-paragraph {
+    font-weight: bold;
+    text-align: left;
+    padding: 30px 0 0 0px;
+    margin: 0 0 10px 0;
+}
+
+.managers-administration__form-ul-list {
+    list-style-type: none;
+    padding: 0 0 80px 0;
+    border: 1px solid;
+    margin: 1px 0 0 0;
+    text-align: left;
+    display: flex;
+    /* width: 100%; */
+}
+
+.managers-administration__form-list {
+    list-style-type: none;
+    border: 1px solid;
+    margin: 1px 0 0 0;
+    padding: 0;
+    /* padding: 0 0 80px 0;
+    text-align: left; */
+}
+
+.scrollarea {
+    height: 397px;
+    cursor: pointer;
+}
+
+.managers-administration__form-list-input {
+    /* padding: 0 0 80px 0;
+    width: 100%; */
+    border: none;
+    margin: 15px 0 0 0;
+}
+
+.managers-administration__form-list-input:focus  {
+    outline: none;
+}
+
+.managers-administration__form-list-item {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #606060;
+}
+
+.managers-administration__form-list-item:hover {
+    background: #f3f3f3;
+}
+.managers-administration__form-cta {
+    margin: 5% 0;
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+
+.managers-administration__form-cta button {
+    width: 220px;
+}
