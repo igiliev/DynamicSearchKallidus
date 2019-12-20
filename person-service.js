@@ -1,4 +1,6 @@
-const { userGroups, person, validUserGroupCheck, currentUser, managersGroups } = require( '../mock-data' );
+const fs = require('fs');
+const path = require('path');
+const { userGroups, person, validUserGroupCheck, currentUser, managersGroups, healthCheck } = require( '../mock-data' );
 
 const getUserGroups = ( req, res ) => {
   setTimeout( () => {
@@ -35,6 +37,16 @@ const removeSelectedManagers = (req, res) => {
   res.json(manager);
 };
 
+const getHealthCheck = (req, res) => {
+  const healthChecker = healthCheck[54321];
+  res.json(healthChecker);
+};
+
+const getHealthCheckCsv = (req, res) => {  
+  const csv = fs.readFileSync(path.join(__dirname, '/../assets/manager-administration.csv'));
+  setTimeout(() => res.send(csv), 1000);
+};
+
 module.exports = {
   getUserGroups,
   getPersonById,
@@ -43,4 +55,6 @@ module.exports = {
   getManagers,
   updateSelectedManagers,
   removeSelectedManagers,
+  getHealthCheck,
+  getHealthCheckCsv,
 };

@@ -1036,6 +1036,7 @@ let courseComponents = {
       Type: 'InstructorLed',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1052,6 +1053,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1068,6 +1070,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1084,6 +1087,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1100,6 +1104,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1116,6 +1121,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1132,6 +1138,7 @@ let courseComponents = {
       Type: 'CompetencyCheck',
       DefaultCulture: 'en-GB',
       IsEnabled: true,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1139,7 +1146,7 @@ let courseComponents = {
         },
         {
           Culture: 'bg-BG',
-          Title: 'Пожарна безопастност 6'
+          Title: 'Пожарна безопастност 7'
         }
       ]
     },
@@ -1148,6 +1155,7 @@ let courseComponents = {
       Type: 'ELearning',
       DefaultCulture: 'en-GB',
       IsEnabled: false,
+      SelectionGroup: '00000000-0000-0000-0000-000000000000',
       Details: [
         {
           Culture: 'en-GB',
@@ -1155,7 +1163,24 @@ let courseComponents = {
         },
         {
           Culture: 'bg-BG',
-          Title: 'Пожарна безопастност 6'
+          Title: 'Пожарна безопастност 8'
+        }
+      ]
+    },
+    {
+      Id: '4445559',
+      Type: 'ELearning',
+      DefaultCulture: 'en-GB',
+      IsEnabled: true,
+      SelectionGroup: '4445559',
+      Details: [
+        {
+          Culture: 'en-GB',
+          Title: 'In sub group - Fire safety URL lesson'
+        },
+        {
+          Culture: 'bg-BG',
+          Title: 'Пожарна безопастност 9'
         }
       ]
     }
@@ -1165,55 +1190,171 @@ let courseComponents = {
   let managersGroups = {
     12345: [
       {
-        Name: 'Ivaylo Iliev',
-        Email: 'ivaylo@mail.com',
-        Position: 'Front End Developer',
-        Id: '1',
+        FamilyName: 'Iliev',
+        GivenName: 'Ivaylo',
+        Id: 'c61cc',
+        JobTitle: 'Front End Developer',
+        PrimaryEmailAddress: 'ivaylo@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Denislava Ilieva',
-        Email: 'sarah@mail.com',
-        Position: 'UI Designer',
-        Id: '2',
+        FamilyName: 'Nikolova',
+        GivenName: 'Denislava',
+        Id: 'c62cc',
+        JobTitle: 'Quality Assurance',
+        PrimaryEmailAddress: 'denislava@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Derric Mugoya',
-        Email: 'derric@mail.com',
-        Position: 'Civil Engineer',
-        Id: '3',
+        FamilyName: 'Mugoya',
+        GivenName: 'Derric',
+        Id: 'c63cc',
+        JobTitle: 'Civil Engineer',
+        PrimaryEmailAddress: 'derric@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Paolo Ferrara',
-        Email: 'paolo@mail.com',
-        Position: 'Architect',
-        Id: '4',
+        FamilyName: 'Paolo',
+        GivenName: 'Ferrara',
+        Id: 'c64cc',
+        JobTitle: 'UX Developer',
+        PrimaryEmailAddress: 'paolo@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Danny Hines',
-        Email: 'danny@gmail.com',
-        Position: 'Business',
-        Id: '5',
+        FamilyName: 'Danny',
+        GivenName: 'Hines',
+        Id: 'c65cc',
+        JobTitle: 'Full Stack Developer',
+        PrimaryEmailAddress: 'danny@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Beth Mclaren',
-        Email: 'beth@outlook.com',
-        Position: 'Music',
-        Id: '6',
+        FamilyName: 'Beth',
+        GivenName: 'Mclaren',
+        Id: 'c66cc',
+        JobTitle: 'Scrum Master',
+        PrimaryEmailAddress: 'beth@mail.com',
+        UserName: 'administrator'
       },
       {
-        Name: 'Clear Gravy',
-        Email: 'clear@outlook.com',
-        Position: 'Music',
-        Id: '7',
-      }
+        FamilyName: 'Clear',
+        GivenName: 'Gravy',
+        Id: 'c67cc',
+        JobTitle: 'Project Manager',
+        PrimaryEmailAddress: 'clear@mail.com',
+        UserName: 'administrator'
+      },
+      {
+        FamilyName: 'Peter',
+        GivenName: 'Robison',
+        Id: 'c67cc',
+        JobTitle: 'Project Manager',
+        PrimaryEmailAddress: 'peter@mail.com',
+        UserName: 'administrator'
+      },
+      {
+        FamilyName: 'Ronald',
+        GivenName: 'Stewerd',
+        Id: 'c67cc',
+        JobTitle: 'Business Analist',
+        PrimaryEmailAddress: 'ronald@mail.com',
+        UserName: 'administrator'
+      },
+      {
+        FamilyName: 'Harry',
+        GivenName: 'Potter',
+        Id: 'c67cc',
+        JobTitle: 'Business Analist',
+        PrimaryEmailAddress: 'harry@mail.com',
+        UserName: 'administrator'
+      },
     ]
+  }
+
+  let healthCheck = {
+    54321: [
+      {
+        PeopleWithoutAManager: {
+          Count: 1,
+          Items: [
+            {
+              GivenName: "Stewerd",
+              FamilyName: "Little",
+              UserName: "stewlittle"
+            }
+          ]
+          },
+        PeopleWithSelfAsManager: {
+            Count: 3,
+            Items: [
+                {
+                    GivenName: "John",
+                    FamilyName: "Smith",
+                    UserName: "johnsmith"
+                },
+                {
+                    GivenName: "David",
+                    FamilyName: "Owens",
+                    UserName: "davidowens"
+                },
+                {
+                    GivenName: "Stan",
+                    FamilyName: "Robison",
+                    UserName: "stanrobison"
+                }
+            ]
+        },
+        CircularRelationships: {
+          Count: 1,
+          Items: [
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "Martin",
+                ManagerFamilyName: "Farrow",
+                GroupTitle: "Development"
+              },
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "Arun",
+                ManagerFamilyName: "Mundray",
+                GroupTitle: "Technical"
+              },
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "Rob",
+                ManagerFamilyName: "Caul",
+                GroupTitle: "Directors"
+              },
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "John",
+                ManagerFamilyName: "Petchey",
+                GroupTitle: "CircularGroup"
+              },
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "Chris",
+                ManagerFamilyName: "Nott",
+                GroupTitle: "TeamB"
+              },
+              {
+                HierarchyNumber: 1,
+                ManagerGivenName: "Martin",
+                ManagerFamilyName: "Farrow",
+                GroupTitle: "Development"
+              },
+          ]
+        },
+      },
+    ],
   }
 
  let selectionGroups = {
    444555: [
      {
        Id: 'some-id-for-selection-groups',
-       // Title: 'Fire safety basic sub-group',
+       //Title: 'Fire safety basic sub-group',
        DefaultCulture: 'en-GB',
        Details: [
          {
@@ -1233,7 +1374,27 @@ let courseComponents = {
          '444555_5',
          '444555_8'
        ]
-     }
+      }
+    ],
+    4445559: [
+      {
+        Id: 'some-id-for-different-selection-groups',
+        Title: 'Fire safety basic sub-group',
+        DefaultCulture: 'en-GB',
+        Details: [
+          {
+            Culture: 'en-GB',
+            Title: 'Fire safety basic sub-group'
+          },
+          {
+            Culture: 'bg-BG',
+            Title: 'Под-група за пожарна безопастност'
+          }
+        ],
+        Components: [
+          '4445559'
+        ]
+      }
    ]
  };
 
@@ -1284,5 +1445,6 @@ module.exports = {
   multiBrandingMode,
   courseComponents,
   selectionGroups,
-  managersGroups
+  managersGroups,
+  healthCheck,
 };
